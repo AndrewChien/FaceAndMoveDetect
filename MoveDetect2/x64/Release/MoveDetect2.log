@@ -1,0 +1,8 @@
+﻿  detect.cpp
+detect.cpp(18): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+detect.cpp(43): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码
+  All 197 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  MoveDetect2.vcxproj -> D:\Projects\人脸识别工程源代码\x64\Release\MoveDetect2.exe
+  MoveDetect2.vcxproj -> D:\Projects\人脸识别工程源代码\x64\Release\MoveDetect2.pdb (Full PDB)
