@@ -1,0 +1,16 @@
+﻿生成启动时间为 2018/2/20 13:22:09。
+     1>项目“F:\1111111\03 computer_vesion\My_Project_VS2013\Network_18_01_28_Face_Check\Network_18_01_28_Face_Check\Network_18_01_28_Face_Check.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013_SourceRoad\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Face_Check.cpp
+         Face_Check.cpp
+     1>d:\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         D:\VS2013_SourceRoad\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\1111111\03 computer_vesion\My_Project_VS2013\Network_18_01_28_Face_Check\Debug\Network_18_01_28_Face_Check.exe" /INCREMENTAL /NOLOGO opencv_world310.lib opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\1111111\03 computer_vesion\My_Project_VS2013\Network_18_01_28_Face_Check\Debug\Network_18_01_28_Face_Check.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\1111111\03 computer_vesion\My_Project_VS2013\Network_18_01_28_Face_Check\Debug\Network_18_01_28_Face_Check.lib" /MACHINE:X86 Debug\Face_Check.obj
+     1>opencv_world310.lib(opencv_world310.dll) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“X86”冲突
+     1>已完成生成项目“F:\1111111\03 computer_vesion\My_Project_VS2013\Network_18_01_28_Face_Check\Network_18_01_28_Face_Check\Network_18_01_28_Face_Check.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.28
