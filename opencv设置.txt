@@ -1,0 +1,13 @@
+属性-配置属性-VC++目录：
+1.包含目录
+D:\Program Files\OpenCV\opencv\build\include
+2.库目录
+D:\Program Files\OpenCV\opencv\build\x64\vc14\lib
+
+属性-配置属性-链接器-输入：
+3.附加依赖项
+release_x64:
+opencv_features2d2413.lib;opencv_highgui2413.lib;opencv_core2413.lib;opencv_imgproc2413.lib;opencv_ml2413.lib;opencv_objdetect2413.lib;opencv_video2413.lib;opencv_contrib2413.lib;opencv_calib3d2413.lib;%(AdditionalDependencies)
+debug_x64:
+opencv_features2d2413d.lib;opencv_highgui2413d.lib;opencv_core2413d.lib;opencv_imgproc2413d.lib;opencv_ml2413d.lib;opencv_objdetect2413d.lib;opencv_video2413d.lib;opencv_contrib2413d.lib;opencv_calib3d2413d.lib;%(AdditionalDependencies)
+
